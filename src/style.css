@@ -44,5 +44,5 @@ td { padding: 0; }
 .feedback { font-size: 13px; color: #30523e; }
 .feedback:empty { display: none; }
 .placeholder { margin: 20px; }
-@media (max-width: 850px) { .layout { grid-template-columns: 1fr; } }
+@media (max-width: 850px) { .layout { grid-template-columns: minmax(0, 1fr); } }
 @media (max-width: 540px) { .frame { width: calc(100% - 24px); } .page-title { margin-top: 27px; align-items: start; } .page-title .subtle { flex: 0 0 auto; } .toolbar { padding: 15px 13px; } .table-wrap { padding-inline: 8px; } }
